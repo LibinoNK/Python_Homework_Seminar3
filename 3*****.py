@@ -20,9 +20,13 @@ list2 = String_Sep(S2)
 
 if " " in list1:
     list1.remove(" ")
+if "," in list1:
+    list1.remove(",")
 
 if " " in list2:
     list2.remove(" ")
+if "," in list2:
+    list2.remove(",")
 
 res = True
 
