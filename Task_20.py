@@ -68,4 +68,4 @@ elif language == "eng":
         elif i in ["Q", "Z"]:
             score = score + 10
 
-print(f'Слово {word} в игре Scrabble "стоит" - {score}')
+print(f'Слово {word} в игре Scrabble "стоит" - {score} очков')
